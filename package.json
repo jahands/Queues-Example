@@ -14,5 +14,8 @@
     "test": "vitest",
     "start-persist": "wrangler dev --local --persist-to ./data",
     "replit-run-command": "npm run start"
+  },
+  "dependencies": {
+    "@microlabs/otel-cf-workers": "^0.0.5"
   }
 }
